@@ -3,7 +3,7 @@
     {
       "id": 1,
       "quote": "Don't count the days, make the days count.",
-      "likes": 1,
+      "likes": 4,
       "author": "Mike Tyson"
     },
     {
@@ -25,17 +25,28 @@
       "author": "Confucius"
     },
     {
-      "id": 5 ,
+      "id": 5,
       "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
       "likes": 1,
-      "author": "Winston Churchhill"
+      "author": "Winston Churchill"
     },
     {
       "id": 6,
       "quote": "Perseverance is the hard work you do after you get tired of doing the hard work you already did.",
-      "likes": 1,
+      "likes": 2,
       "author": "Newt Gingrich"
+    },
+    {
+      "quote": "Yo",
+      "likes": 11,
+      "author": "Jesus",
+      "id": 7
+    },
+    {
+      "quote": "Te iubesc pisi",
+      "likes": 1725312763,
+      "author": "Alex",
+      "id": 8
     }
-
   ]
 }

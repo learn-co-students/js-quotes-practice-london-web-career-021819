@@ -1,3 +1,8 @@
 #quote-list {
   padding: 20px;
 }
+
+blockquote > button {
+  margin: 1px 4px;
+  border-radius: 7px;
+}
