@@ -23,7 +23,7 @@ function addQuoteToPage(quote) {
   const likeEl = cardEl.querySelector('.btn-success')
   likeEl.addEventListener('click', (event) => {
     quote.likes++
-    likeEl.innerText = `Likes: ${quote.likes}`
+    // likeEl.innerText = `Likes: ${quote.likes}`
     updateQuote(quote)
     .then(() => {likeEl.innerText = `Likes: ${quote.likes}`})
   })
@@ -44,7 +44,7 @@ formEl.addEventListener('submit', (event) => {
     likes: 0
   }
   createQuote(newQuote)
-  .then(addQuoteToPage(newQuote))
+  .then(addQuoteToPage)
   formEl.reset()
 })
 
