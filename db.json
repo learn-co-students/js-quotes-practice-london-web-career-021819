@@ -1,41 +1,28 @@
 {
   "quotes": [
     {
-      "id": 1,
-      "quote": "Don't count the days, make the days count.",
-      "likes": 1,
-      "author": "Mike Tyson"
+      "author": "Charl",
+      "quote": "Why don't we have some cake",
+      "likes": 7,
+      "id": 17
     },
     {
-      "id": 2,
-      "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+      "author": "Homer",
+      "quote": "It takes two to lie: one to lie and one to listen.",
       "likes": 1,
-      "author": "Collin Powell"
+      "id": 18
     },
     {
-      "id": 3,
-      "quote": "Tell me and I forget, teach me and I remember, involve me and I learn.",
-      "likes": 1,
-      "author": "Benjamin Franklin"
+      "author": "Katya",
+      "quote": "The limits of our success are just the limits of our energy.",
+      "likes": 11,
+      "id": 20
     },
     {
-      "id": 4,
-      "quote": "Our greatest glory is not in never falling, but in rising everytime we fall.",
-      "likes": 1,
-      "author": "Confucius"
-    },
-    {
-      "id": 5 ,
-      "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-      "likes": 1,
-      "author": "Winston Churchhill"
-    },
-    {
-      "id": 6,
-      "quote": "Perseverance is the hard work you do after you get tired of doing the hard work you already did.",
-      "likes": 1,
-      "author": "Newt Gingrich"
+      "author": "Jimmy Edgar",
+      "quote": "STOP waisting yr precious energy scrolling, getting in other peoples business, emotionally reacting to things outside of your immediate sphere of reality. funnel that back into your imagination and recreate an upgrade to YOUR life.",
+      "likes": 14,
+      "id": 21
     }
-
   ]
 }
