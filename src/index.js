@@ -9,14 +9,13 @@ function renderQuote(quote) {
 
   quoteLi.innerHTML = `
       <blockquote class="blockquote">
-        <p class="mb-0">${quote.quote}</p>
+        <p class="mb-0" contentEditable="true";>${quote.quote}</p>
         <footer class="blockquote-footer">${quote.author}</footer>
         <br>
         <button class='btn-success'>Likes: <span>${quote.likes}</span></button>
         <button class='btn-danger'>Delete</button>
-        <button class='btn-warning'>Edit</button>
-      </blockquote>
-    `;
+        </blockquote>
+        `;
 
   quoteList.appendChild(quoteLi);
   addQuoteLiListener(quote, quoteLi);
@@ -55,9 +54,15 @@ function addQuoteLiListener(quote, quoteLi) {
         quoteLi.remove();
       });
     } else if (event.target.className == "btn-warning") {
+      // editQuote(quote);
       alert("Are you sure?");
     }
   });
+}
+
+// edit quote
+function editQuote(quote) {
+  // updateQuote(quote);
 }
 
 // render all quotes

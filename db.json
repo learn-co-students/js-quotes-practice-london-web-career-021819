@@ -1,22 +1,22 @@
 {
   "quotes": [
     {
-      "id": 6,
-      "quote": "Perseverance is the hard work you do after you get tired of doing the hard work you already did.",
-      "likes": 13,
-      "author": "Newt Gingrich"
-    },
-    {
       "quote": "profound words",
       "author": "me",
-      "likes": 7,
-      "id": 7
+      "likes": 3,
+      "id": 9
     },
     {
-      "quote": "why is it broken?",
-      "author": "me",
-      "likes": 6,
-      "id": 8
+      "quote": "the latest and greatest",
+      "author": "me again",
+      "likes": 2,
+      "id": 10
+    },
+    {
+      "quote": "something",
+      "author": "someone",
+      "likes": 1,
+      "id": 11
     }
   ]
 }
